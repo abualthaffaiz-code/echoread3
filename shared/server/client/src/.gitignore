@@ -1,0 +1,42 @@
+node_modules
+dist
+.DS_Store
+server/public
+vite.config.ts.*
+*.tar.gz
+
+# Environment variables and secrets
+.env
+.env.local
+.env.production
+.env.development
+
+# Replit specific files
+.replit
+replit.nix
+.upm
+
+# Database files
+*.db
+*.sqlite
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Cache directories
+.cache
+.next
+.nuxt
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
